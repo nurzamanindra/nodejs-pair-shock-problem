@@ -15,6 +15,7 @@ const pairMyShock = (howManyData,Data) =>{
     let dt = splitData(Data);
     let distinctData = DistinctValue(dt);
     let pairs = 0;
+
     if(howManyData !== dt.length){
         return "your number of data should same with the length of Data";
     }
