@@ -1,6 +1,6 @@
 var totalData = '' ;
 var Data = [];
-const pair = require('./pairTheShocks');
+const pair = require('./logic/pairTheShocks');
 
 console.log('========================');
 console.log('PAIR SHOCK PROGRAM');
